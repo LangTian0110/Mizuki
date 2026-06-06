@@ -1,11 +1,11 @@
 import type { SiteConfig } from "../types/config";
 
 // 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
-	subtitle: "One demo website",
+	subtitle: "一个示例网站",
 	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -169,7 +169,7 @@ export const siteConfig: SiteConfig = {
 		credit: {
 			enable: false, // 显示横幅图片来源文本
 
-			text: "Describe", // 要显示的来源文本
+			text: "来源说明", // 要显示的来源文本
 			url: "", // （可选）原始艺术品或艺术家页面的 URL 链接
 		},
 
