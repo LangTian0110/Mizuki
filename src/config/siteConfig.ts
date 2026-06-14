@@ -4,15 +4,15 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-  title: "Mizuki",
-  subtitle: "一个示例网站",
+  title: "OVERSLEEP",
+  subtitle: "过度睡眠",
   siteURL: "https://blog.oversleep.com/", // 请替换为你的站点URL，以斜杠结尾
   siteStartDate: "2026-06-06", // 站点开始运行日期，用于站点统计组件计算运行天数
 
   lang: SITE_LANG,
 
   themeColor: {
-    hue: 0, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+    hue: 240, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
     fixed: true, // 对访问者隐藏主题色选择器
   },
 
@@ -20,12 +20,12 @@ export const siteConfig: SiteConfig = {
   featurePages: {
     anime: true, // 番剧页面开关
     diary: true, // 日记页面开关
-    friends: true, // 友链页面开关
+    friends: false, // 友链页面开关
     projects: true, // 项目页面开关
-    skills: true, // 技能页面开关
-    timeline: true, // 时间线页面开关
-    albums: true, // 相册页面开关
-    devices: true, // 设备页面开关
+    skills: false, // 技能页面开关
+    timeline: false, // 时间线页面开关
+    albums: false, // 相册页面开关
+    devices: false, // 设备页面开关
   },
 
   // 顶栏标题配置

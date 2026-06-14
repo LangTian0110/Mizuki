@@ -128,109 +128,117 @@ import { LinkPreset } from "../types/config";
  */
 export const navBarConfig: NavBarConfig = {
 	links: [
-		// 预设链接：首页
-		LinkPreset.Home,
-		// 预设链接：归档
-		LinkPreset.Archive,
-
-		// 自定义一级下拉菜单示例：外部链接集合
-		{
-			name: "链接",
-			url: "/links/",
-			icon: "material-symbols:link",
-			children: [
-				{
-					name: "GitHub",
-					url: "https://github.com/LyraVoid/Mizuki",
-					external: true, // 外部链接，新标签页打开
-					icon: "fa7-brands:github",
-				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
-					external: true,
-					icon: "fa7-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
-			],
-		},
-
-		// 自定义一级下拉菜单示例：个人内容页面
-		{
-			name: "我的",
-			url: "/content/",
-			icon: "material-symbols:person",
-			children: [
-				{
-					name: "番剧",
-					url: "/anime/",
-					icon: "material-symbols:movie",
-				},
-				{
-					name: "日记",
-					url: "/diary/",
-					icon: "material-symbols:book",
-				},
-				{
-					name: "相册",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-				},
-				{
-					name: "设备",
-					url: "/devices/",
-					icon: "material-symbols:devices",
-					external: false, // 内部链接，当前页导航
-				},
-			],
-		},
-
-		// 自定义一级下拉菜单示例：关于相关
-		{
-			name: "关于",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [
-				{
-					name: "关于",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-				{
-					name: "友链",
-					url: "/friends/",
-					icon: "material-symbols:group",
-				},
-			],
-		},
-
-		// 自定义一级下拉菜单示例：其他页面
-		{
-			name: "更多",
-			url: "#", // "#" 作为占位 URL，点击不会跳转
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "项目",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "技能",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "时间线",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
-			],
-		},
-	],
+    {
+      0: "L",
+      1: "i",
+      2: "n",
+      3: "k",
+      4: "P",
+      5: "r",
+      6: "e",
+      7: "s",
+      8: "e",
+      9: "t",
+      10: ".",
+      11: "H",
+      12: "o",
+      13: "m",
+      14: "e",
+      external: false,
+    },
+    "LinkPreset.Archive",
+    {
+      name: "链接",
+      url: "/links/",
+      icon: "material-symbols:link",
+      children: [
+        {
+          name: "GitHub",
+          url: "https://github.com/LyraVoid/Mizuki",
+          external: true,
+          icon: "fa7-brands:github",
+        },
+        {
+          name: "Bilibili",
+          url: "https://space.bilibili.com/701864046",
+          external: true,
+          icon: "fa7-brands:bilibili",
+        },
+        {
+          name: "Gitee",
+          url: "https://gitee.com/matsuzakayuki/Mizuki",
+          external: true,
+          icon: "mdi:git",
+        },
+      ],
+    },
+    {
+      name: "我的",
+      url: "/content/",
+      icon: "material-symbols:person",
+      children: [
+        {
+          name: "番剧",
+          url: "/anime/",
+          icon: "material-symbols:movie",
+        },
+        {
+          name: "日记",
+          url: "/diary/",
+          icon: "material-symbols:book",
+        },
+        {
+          name: "相册",
+          url: "/albums/",
+          icon: "material-symbols:photo-library",
+        },
+        {
+          name: "设备",
+          url: "/devices/",
+          icon: "material-symbols:devices",
+          external: false,
+        },
+      ],
+    },
+    {
+      name: "关于",
+      url: "/content/",
+      icon: "material-symbols:info",
+      children: [
+        {
+          name: "关于",
+          url: "/about/",
+          icon: "material-symbols:person",
+        },
+        {
+          name: "友链",
+          url: "/friends/",
+          icon: "material-symbols:group",
+        },
+      ],
+      external: false,
+    },
+    {
+      name: "更多",
+      url: "#",
+      icon: "material-symbols:more-horiz",
+      children: [
+        {
+          name: "项目",
+          url: "/projects/",
+          icon: "material-symbols:work",
+        },
+        {
+          name: "技能",
+          url: "/skills/",
+          icon: "material-symbols:psychology",
+        },
+        {
+          name: "时间线",
+          url: "/timeline/",
+          icon: "material-symbols:timeline",
+        },
+      ],
+    },
+  ],
 };
