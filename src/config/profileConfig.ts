@@ -11,29 +11,19 @@ export const profileConfig: ProfileConfig = {
   },
   links: [
     {
-      name: "Bilibili",
-      icon: "fa7-brands:bilibili",
-      url: "https://space.bilibili.com/701864046",
+      name: "Github",
+      icon: "mdi:github",
+      url: "https://github.com/LangTian0110",
     },
     {
-      name: "Gitee",
-      icon: "mdi:git",
-      url: "https://gitee.com/matsuzakayuki",
+      name: "CloudMusic",
+      icon: "simple-icons:neteasecloudmusic",
+      url: "https://music.163.com/#/user/home?id=5113280144",
     },
     {
-      name: "GitHub",
-      icon: "fa7-brands:github",
-      url: "https://github.com/langtian0110",
-    },
-    {
-      name: "Codeberg",
-      icon: "simple-icons:codeberg",
-      url: "https://codeberg.org",
-    },
-    {
-      name: "Discord",
-      icon: "fa7-brands:discord",
-      url: "https://discord.gg/MqW6TcQtVM",
+      name: "Mail",
+      icon: "majesticons:mail",
+      url: "mailto:langtian0110@qq.com",
     },
   ],
 };
